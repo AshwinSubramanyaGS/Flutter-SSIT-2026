@@ -26,7 +26,7 @@ class WorkshopApp extends StatelessWidget {
                 children: [
 
                   const Icon(
-                    Icons.settings,
+                    Icons.phone_android,
                     size: 90,
                     color: Colors.blue,
                   ),
