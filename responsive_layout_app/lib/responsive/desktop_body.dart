@@ -7,7 +7,7 @@ class MyDesktopBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple[200],
+      backgroundColor: Colors.greenAccent,
       appBar: AppBar(
         title: const Text('D E S K T O P'),
         backgroundColor: Colors.deepPurple,
@@ -24,7 +24,7 @@ class MyDesktopBody extends StatelessWidget {
                   AspectRatio(
                     aspectRatio: 16 / 9,
                     child: Container(
-                      color: Colors.deepPurple[400],
+                      color: Colors.deepOrange[400],
                     ),
                   ),
 
@@ -36,7 +36,7 @@ class MyDesktopBody extends StatelessWidget {
                         return Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: Container(
-                            color: Colors.deepPurple[300],
+                            color: Colors.blueAccent[300],
                             height: 120,
                           ),
                         );
